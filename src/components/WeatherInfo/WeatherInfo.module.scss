@@ -1,0 +1,119 @@
+@import '@/styles/index.scss';
+
+.weather {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include adaptiveValue('gap', 36, 8, 0, 1200, 320);
+
+  &_header {
+    width: 80%;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-areas: 'title icon' 'temp icon' 'desc icon';
+  }
+
+  &_title {
+    grid-area: title;
+    align-self: end;
+    @include adaptiveValue('font-size', 32, 18, 0, 1200, 320);
+    color: rgba(var(--whitesmoke));
+    text-shadow: 0 1px 2px rgba(var(--black), 0.5);
+  }
+  
+  &_temp {
+    grid-area: temp;
+    align-self: start;
+    @include adaptiveValue('font-size', 56, 20, 0, 1200, 320);
+    font-weight: 600;
+    color: rgba(var(--whitesmoke));
+    text-shadow: 0 1px 3px rgba(var(--black), 0.5);
+    margin-top: 0.3rem;
+    @include adaptiveValue('margin-bottom', 16, -5, 0, 1200, 320);
+  }
+  
+  &_desc {
+    grid-area: desc;
+    align-self: start;
+    @include adaptiveValue('font-size', 24, 12, 0, 1200, 320);
+    color: rgba(var(--whitesmoke));
+    text-shadow: 0 1px 2px rgba(var(--black), 0.5);
+  }
+
+  &_icon {
+    grid-area: icon;
+    @include adaptiveValue('width', 170, 90, 0, 1200, 320);
+    @include adaptiveValue('height', 170, 90, 0, 1200, 320);
+  }
+}
+
+.detail {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  @include adaptiveValue('gap', 48, 16, 0, 1200, 320);
+  @include adaptiveValue('padding', 16, 10, 0, 1200, 320);
+  border-radius: 2rem;
+  background: rgba(var(--total-white), 0.6);
+
+  &_wrap {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 3rem;
+      height: 3rem;
+      justify-self: end;
+    }
+  }
+
+  &_title {
+    @include adaptiveValue('font-size', 20, 12, 0, 1200, 320);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    span {
+      @include adaptiveValue('font-size', 18, 14, 0, 1200, 320);
+      font-weight: 600;
+    }
+  }
+}
+
+.forecast {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  @include adaptiveValue('gap', 16, 8, 0, 1200, 320);
+
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include adaptiveValue('gap', 8, 2, 0, 1200, 320);
+    @include adaptiveValue('padding-top', 10, 8, 0, 1200, 320);
+    @include adaptiveValue('padding-bottom', 10, 8, 0, 1200, 320);
+    background: rgba(var(--total-white), 0.6);
+    border-radius: 1rem;
+  }
+
+  &_time {
+    @include adaptiveValue('font-size', 16, 10, 0, 1200, 320);
+    font-weight: 500;
+    padding: 0.3rem 0.5rem;
+    background: rgba(var(--total-white), 0.5);
+    border-radius: 0.7rem;
+  }
+
+  &_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  &_temp {
+    @include adaptiveValue('font-size', 20, 12, 0, 1200, 320);
+    font-weight: 600;
+  }
+}
