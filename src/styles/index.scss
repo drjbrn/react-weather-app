@@ -1,0 +1,14 @@
+@use 'sass:math';
+@import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+// Мінімальна ширина сторінки
+$minWidth: 320;
+// Ширина полотна (макету)
+$maxWidth: 1440;
+// Ширина обмежуючого контейнера
+$maxWidthContainer: 1200;
+// Загальний відступ у контейнера
+$containerPadding: 24;
+// Ширина спрацьовування першого брейкпоінту
+$containerWidth: $maxWidthContainer + $containerPadding;
