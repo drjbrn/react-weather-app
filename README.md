@@ -1,5 +1,7 @@
 # react-weather-app
-React Weather App is a website that allows users to easily receive current and detailed weather information for any city in the world. The project is developed in React using the Vite build tool and utilizes Axios for interacting with the OpenWeatherMap API, which enables dynamic data updates and provides users with accurate information.
+React Weather App is a website that allows users to easily receive current and detailed weather information for any city in the world.
+
+The project is developed in React using the Vite build tool and utilizes Axios for interacting with the OpenWeatherMap API, which enables dynamic data updates and provides users with accurate information.
 
 [Project link](https://drjbrn-weather-app.netlify.app/)
 
@@ -12,4 +14,6 @@ React Weather App is a website that allows users to easily receive current and d
 
 
 ## 1440px
-![1440](https://github.com/drjbrn/react-weather-app/assets/112949144/9f469404-7af0-49c5-af59-0d99be5315bb)
+|                                     |
+| ----------------------------------- |
+|![1440](https://github.com/drjbrn/react-weather-app/assets/112949144/9f469404-7af0-49c5-af59-0d99be5315bb)|
