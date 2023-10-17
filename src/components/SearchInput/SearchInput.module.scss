@@ -1,0 +1,29 @@
+@import '@/styles/index.scss';
+
+.form {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+
+  &_label {
+    width: 100%;
+  }
+
+  &_input {
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.55rem 5rem 0.55rem 1rem;
+  }
+
+  &_btn {
+    background: url('@assets/magnifyingglass.svg') no-repeat center;
+    width: toRem(40);
+    height: toRem(40);
+    filter: invert(100%);
+    position: absolute;
+    right: 0;
+  }
+}
