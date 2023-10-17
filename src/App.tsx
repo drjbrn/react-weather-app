@@ -11,7 +11,7 @@ export const App = () => {
 
   return (
     <main className='main'>
-      <section className='section'>
+      <section className={`section ${city ? 'with-city' : 'without-city'}`}>
         <SearchInput onCitySubmit={search} />
         {city && <WeatherInfo city={city} />}
       </section>
