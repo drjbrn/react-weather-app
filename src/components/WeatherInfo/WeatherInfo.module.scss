@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include adaptiveValue('gap', 36, 8, 0, 1200, 320);
+  @include adaptiveValue('gap', 24, 8, 0, 1200, 320);
 
   &_header {
     width: 80%;
@@ -86,7 +86,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  // @include adaptiveValue('gap', 16, 8, 0, 1200, 320);
   gap: 0.7rem;
 
   &_wrap {

@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  @include adaptiveValue('gap', 36, 16, 0, 1200, 320);
+  @include adaptiveValue('gap', 24, 16, 0, 1200, 320);
   background-color: rgba(var(--total-white), 0.3);
   border-radius: 2rem;
 }
@@ -31,8 +31,5 @@ body {
 }
 
 .with-city {
-  @include adaptiveValue('padding-top', 40, 24, 0, 1200, 320);
-  @include adaptiveValue('padding-right', 32, 16, 0, 1200, 320);
-  @include adaptiveValue('padding-bottom', 40, 24, 0, 1200, 320);
-  @include adaptiveValue('padding-left', 32, 16, 0, 1200, 320);
+  @include adaptiveValue('padding', 32, 16, 0, 1200, 320);
 }
