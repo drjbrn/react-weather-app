@@ -31,5 +31,8 @@ body {
 }
 
 .with-city {
-  @include adaptiveValue('padding', 32, 16, 0, 1200, 320);
+  @include adaptiveValue('padding-top', 28, 20, 0, 1200, 320);
+  @include adaptiveValue('padding-right', 28, 16, 0, 1200, 320);
+  @include adaptiveValue('padding-bottom', 28, 20, 0, 1200, 320);
+  @include adaptiveValue('padding-left', 28, 16, 0, 1200, 320);
 }
