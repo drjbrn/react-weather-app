@@ -10,10 +10,9 @@ The project is developed in React using the Vite build tool and utilizes Axios f
 ## 320px
 |                                     |                                     |
 | ----------------------------------- | ----------------------------------- |
-|![320first](https://github.com/drjbrn/react-weather-app/assets/112949144/c314ffd6-b64a-403a-a417-2f25c194294a) | ![320](https://github.com/drjbrn/react-weather-app/assets/112949144/446f80cc-04eb-4991-b1e1-e0b7106f997f) |
-
+|![320first](https://github.com/drjbrn/react-weather-app/assets/112949144/ef40c9ad-cda5-4b57-98c3-314ae32c1be9) | ![320second](https://github.com/drjbrn/react-weather-app/assets/112949144/4ed12f2a-e49b-4019-8780-4afee831b196)|
 
 ## 1440px
 |                                     |
 | ----------------------------------- |
-|![1440](https://github.com/drjbrn/react-weather-app/assets/112949144/9f469404-7af0-49c5-af59-0d99be5315bb)|
+|![14403](https://github.com/drjbrn/react-weather-app/assets/112949144/3a9cc01b-5848-4c9e-a9c7-4b497ba0b49a)|
